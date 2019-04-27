@@ -67,7 +67,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Inlin
 config = configparser.RawConfigParser()
 config.read('rail.cfg')
 token=os.environ.get('TOKEN', None)
-key=os.environ.get('raiwayAPI', None)
+key=os.environ.get('railwayAPI', None)
 logging.info(key)
 logging.info(token)
 def start(bot, update):
